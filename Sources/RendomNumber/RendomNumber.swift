@@ -1,6 +1,6 @@
-public struct RendomNumber {
-    public private(set) var text = "Hello, World!"
+import Foundation
 
-    public init() {
-    }
+public func generateRandomNumber() -> Int {
+    Int.random(in: 0...100)
 }
+
